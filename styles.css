@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+}
+
+body {
+    background-image: url('./images/bg-mobile.svg');
+    background-color: var(--violet);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+header {
+    width: 240px;
+    height: 80px;
+    text-align: start;
+}
+
+.header-logo {
+    width: 100px;
+    margin-top: 20px;  
+    margin-left: 5px; 
+}
+
+.dispositivos {
+    width: 220px;
+}
+
+main {
+    font-family: 'Poppins', Arial;
+    height: 400px;
+}
+
+.main-description--center h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 10px 30px 10px 30px;
+    color: white;
+}
+
+.main-description--center p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-description--center button {
+    margin-top: 7px;
+    width: 170px;
+    height: 35px;
+    color: var(--violet);
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 55px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer ion-icon {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
