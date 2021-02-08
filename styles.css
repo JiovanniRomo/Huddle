@@ -16,6 +16,7 @@ body {
     background-image: url('./images/bg-mobile.svg');
     background-color: var(--violet);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,43 +26,42 @@ body {
 }
 
 header {
-    width: 240px;
-    height: 80px;
+    width: 270px;
+    height: 100px;
     text-align: start;
 }
 
 .header-logo {
-    width: 100px;
     margin-top: 20px;  
     margin-left: 5px; 
 }
 
 .dispositivos {
-    width: 220px;
+    width: 250px;
 }
 
 main {
     font-family: 'Poppins', Arial;
-    height: 400px;
+    height: 550px;
 }
 
 .main-description--center h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 700;
-    padding: 10px 30px 10px 30px;
+    padding: 40px 30px 10px 30px;
     color: white;
 }
 
 .main-description--center p {
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     margin-top: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .main-description--center button {
-    margin-top: 7px;
+    margin-top: 30px;
     width: 170px;
     height: 35px;
     color: var(--violet);
@@ -73,7 +73,7 @@ main {
 
 footer {
     width: 100%;
-    height: 55px;
+    height: 60px;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
