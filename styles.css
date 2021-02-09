@@ -38,6 +38,7 @@ header {
 
 main {
     font-family: 'Poppins', Arial;
+    width: 100%;
     height: auto;
 }
 
@@ -51,6 +52,8 @@ main picture {
 
 .main-description--center {
     margin-top: 20px;
+    width: 100%;
+    /* margin: 0 auto; */
 }
 
 .main-description--center h2 {
@@ -62,7 +65,7 @@ main picture {
 
 .main-description--center p {
     font-weight: 400;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     margin-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
