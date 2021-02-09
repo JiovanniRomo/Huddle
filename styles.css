@@ -90,11 +90,13 @@ footer {
     margin-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 footer ion-icon {
     padding: 5px;
     border: 1px solid white;
     border-radius: 50%;
+    margin: 20px;
+
 }
