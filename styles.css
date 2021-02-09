@@ -31,7 +31,7 @@ header {
     text-align: start;
 }
 
-.header-logo {
+picture .header-logo {
     margin-top: 20px;  
     margin-left: 10px; 
 }
@@ -46,7 +46,7 @@ main picture {
     width: 100%;
 }
 
-.dispositivos {
+main .dispositivos {
     width: 300px;
 }
 
