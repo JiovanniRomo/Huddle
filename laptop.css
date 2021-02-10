@@ -3,20 +3,21 @@ header {
 }
 
 body {
-    background-image: url('./images/bg-desktop.svg');
-    background-size: cover;
+    background-image : url('./images/bg-desktop.svg');
+    background-size  : cover;
     background-repeat: no-repeat;
-    object-fit: contain;
+    object-fit       : contain;
 }
 
 main {
-    display: flex;
+    display        : flex;
     justify-content: center;
+    height         : 300px;
 }
 
 picture .header-logo {
     padding: 20px;
-    width: 200px;
+    width  : 200px;
 }
 
 main picture {
@@ -24,7 +25,7 @@ main picture {
 }
 
 picture .dispositivos {
-    width: 400px;
+    width       : 400px;
     margin-right: 70px;
 }
 
@@ -38,5 +39,15 @@ picture .dispositivos {
 
 footer {
     justify-content: flex-end;
-    margin-right: 150px;
+    margin-right   : 150px;
+}
+
+@media (max-width: 1439px) {
+
+    /* main {
+        height: 370px;
+    } */
+    .main-description--center {
+        width: 40%;
+    }
 }

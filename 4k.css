@@ -1,0 +1,15 @@
+picture .header-logo {
+    margin-left: 68px;
+}
+
+main {
+    height: 370px;
+}
+
+picture .dispositivos {
+    width: 500px;
+}
+
+.main-description--center {
+    padding: 60px 90px 0px 0px;
+}

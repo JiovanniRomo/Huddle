@@ -1,6 +1,6 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding   : 0;
+    margin    : 0;
     box-sizing: border-box;
 }
 
@@ -13,33 +13,33 @@ html {
 }
 
 body {
-    background-image: url('./images/bg-mobile.svg');
-    background-color: var(--violet);
+    background-image : url('./images/bg-mobile.svg');
+    background-color : var(--violet);
     background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    color: white;
+    background-size  : cover;
+    display          : flex;
+    flex-direction   : column;
+    align-items      : center;
+    justify-content  : space-between;
+    text-align       : center;
+    color            : white;
 }
 
 header {
-    width: 100%;
-    height: 90px;
+    width     : 100%;
+    height    : 90px;
     text-align: start;
 }
 
 picture .header-logo {
-    margin-top: 20px;  
-    margin-left: 10px; 
+    margin-top : 20px;
+    margin-left: 10px;
 }
 
 main {
     font-family: 'Poppins', Arial;
-    width: 100%;
-    height: 500px;
+    width      : 100%;
+    height     : 500px;
 }
 
 main picture {
@@ -55,44 +55,44 @@ main .dispositivos {
 }
 
 .main-description--center h2 {
-    font-size: 2.2rem;
+    font-size  : 2.2rem;
     font-weight: 700;
-    padding: 20px 30px 10px 30px;
-    color: white;
+    padding    : 20px 30px 10px 30px;
+    color      : white;
 }
 
 .main-description--center p {
-    font-weight: 400;
-    font-size: 1.4rem;
-    margin-top: 5px;
-    padding-left: 30px;
+    font-weight  : 400;
+    font-size    : 1.4rem;
+    margin-top   : 5px;
+    padding-left : 30px;
     padding-right: 30px;
 }
 
 .main-description--center button {
-    margin-top: 10px;
-    width: 170px;
-    height: 35px;
-    color: var(--violet);
+    margin-top      : 10px;
+    width           : 170px;
+    height          : 35px;
+    color           : var(--violet);
     background-color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 20px;
-    margin-top: 20px;
+    text-decoration : none;
+    border          : none;
+    border-radius   : 20px;
+    margin-top      : 20px;
 }
 
 footer {
-    width: 100%;
-    height: 50px;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
+    width          : 100%;
+    height         : 50px;
+    font-size      : 1.5rem;
+    display        : flex;
+    align-items    : center;
     justify-content: center;
 }
 
 footer ion-icon {
-    padding: 5px;
-    border: 1px solid white;
+    padding      : 5px;
+    border       : 1px solid white;
     border-radius: 50%;
-    margin: 5px;
+    margin       : 5px;
 }
