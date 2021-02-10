@@ -1,0 +1,42 @@
+header {
+    height: 150px;
+}
+
+body {
+    background-image: url('./images/bg-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+picture .header-logo {
+    padding: 20px;
+    width: 200px;
+}
+
+main picture {
+    width: 55%;
+}
+
+picture .dispositivos {
+    width: 400px;
+    margin-right: 70px;
+}
+
+.main-description--center {
+    width: 50%;
+}
+
+.main-description--center h2 {
+    font-size: 3rem;
+}
+
+footer {
+    justify-content: flex-end;
+    margin-right: 150px;
+}
